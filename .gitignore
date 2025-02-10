@@ -1,0 +1,72 @@
+# Maven output directories
+/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Build outputs
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# STS-specific files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA-specific files
+.idea/
+/*.iws
+/*.iml
+/*.ipr
+
+# NetBeans-specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code-specific files
+.vscode/
+
+# OS-specific and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Docker-specific files
+docker-compose.override.yml
+.dockerignore
+
+# Logs and temporary files
+*.log
+
+# Maven-specific
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Generated or temporary build artifacts
+/.settings/
+/bin/
+/tmp/
+
+# Dependencies installed locally
+/.m2/
+
+# Coverage/Reports
+/coverage/
+/test-results/
