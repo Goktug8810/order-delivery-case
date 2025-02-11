@@ -12,7 +12,7 @@ mvn spring-boot:run
 ```
 
 !! içerdeki docker-compose.yml dosyası 3 brokerlı yapıdadır, 
-broker bağlantısında bir problem çıkması durumunda, tek brokerla calısacak bir yedek docker-compose.yml dosyası da proje içerisinde mevcut.
+broker bağlantısında bir problem çıkması durumunda (olası bir UnkownHost exceptionunda /etc/hosts dosyasına ilgili broker adlarını yazarak çözüm sağlayabilirsiniz), tek brokerla calısacak bir yedek docker-compose.yml dosyası da proje içerisinde mevcut.
 
 ### 2. **Veritabanı Ayarları**
 docker compose dosyası ile otomatik olarak başlatabilirsiniz. Veritabanı tabloları ve oluşacak örnek datalar, proje dizinindeki `docker/postgres/initDb.sql` dosyası ile otomatik olarak oluşturuluyor.
